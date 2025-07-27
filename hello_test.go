@@ -31,9 +31,10 @@ func TestNorway(test *testing.T) {
 }
 
 func TestItalian(test *testing.T) {
+	name := "Marco"
 	language := "italian"
 	expected := "Ciao Marco"
-	actual , err := Hello("" , language)
+	actual , err := Hello(name , language)
 	if err != nil {
 			test.Errorf("!!! Should not produce an error: %s" , err)
 	}
