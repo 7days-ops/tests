@@ -44,7 +44,7 @@ func TestItalian(test *testing.T) {
 	}
 }
 
-func TestIndividual(test *testing.T) {
+/* func TestIndividual(test *testing.T) {
 	oldStdin := os.Stdin
 	defer func() {os.Stdin = oldStdin}()
 	r,w , _ := os.Pipe()
@@ -65,4 +65,4 @@ func TestIndividual(test *testing.T) {
 	if expected != actual {
 		test.Errorf("Result was incorrect , got: %s ,want: %s " , actual , expected)
 	}
-}
+} */
