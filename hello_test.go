@@ -1,9 +1,7 @@
 package main
 
 import (
-	"os"
 	"testing"
-	"time"
 )
 
 func TestEnglish(test *testing.T) {
